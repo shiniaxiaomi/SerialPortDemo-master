@@ -330,6 +330,9 @@ public class MainFrame extends JFrame {
 						if("ERR--15".equals(substring)){
 							ShowUtils.errorMessage("距离过近,请放远!");
 							return;
+						}else if(substring.indexOf("ERR")!=-1){
+							ShowUtils.errorMessage("未知错误,请调整传感器!");
+							return;
 						}
 						float floatData=Float.valueOf(substring);
 						sum+=floatData;

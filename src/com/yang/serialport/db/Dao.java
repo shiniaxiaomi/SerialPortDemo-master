@@ -29,7 +29,7 @@ public class Dao {
 
     //插入数据
     public void insertData(float data, Date time){
-        jdbcTemplate.update("INSERT INTO distance (data,time) VALUES(?,?)", new Object[] {data, time});
+        jdbcTemplate.update("INSERT INTO distance (value,time) VALUES(?,?)", new Object[] {data, time});
     }
 
     public static void main(String[] args) {
