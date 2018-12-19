@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="mysql-connector-java-5.1.24-bin">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.24-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/RXTXcomm.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-beans-3.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-core-3.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-jdbc-3.2.3.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/spring-tx-3.2.3.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
